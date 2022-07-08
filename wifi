@@ -1,0 +1,10 @@
+if [ $1 == "on" ]
+then
+  networksetup -setairportpower en0 on
+fi
+
+if [ $1 == "off" ]
+then
+  networksetup -setairportpower en0 off
+fi
+
